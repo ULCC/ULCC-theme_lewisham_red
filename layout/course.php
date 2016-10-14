@@ -58,7 +58,7 @@ echo $OUTPUT->doctype(); ?>
       <?php } ?>
 
         <div id="page-content">
-          <?php $course_name = $COURSE->fullname .' ('. $COURSE->shortname.") " ; ?>
+          <?php $course_name = $COURSE->fullname; ?>
           <h1 class="course-title"><?php echo $course_name ; ?></h1>
           <div id="region-main-box">
             <div id="region-post-box">
